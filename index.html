@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha Secreta</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="tentativas-container">
+        <div class="tentativa tentativa-0">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="tentativa tentativa-1">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="tentativa tentativa-2">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div>      
+
+    <div class="retangulo">
+        <img src="img/elPrimo.png" class="imagem-hover" data-nome="elPrimo">
+        <img src="img/poco.png" class="imagem-hover" data-nome="poco">
+        <img src="img/nita.png" class="imagem-hover" data-nome="nita">
+        <img src="img/spike.png" class="imagem-hover" data-nome="spike">
+    </div>
+
+    <div class="apagar">
+        <img src="img/return.png" id="botao-voltar" alt="Voltar">
+    </div>
+
+    <div id="mensagem-resultado" class="mensagem-resultado"></div>
+
+    <button id="tentar-novamente" class="btn-tentar" style="display:none;">Tentar Novamente</button>
+
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
