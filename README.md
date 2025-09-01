@@ -62,17 +62,6 @@ O estilo está em `style.css`, com destaque para:
 
 ---
 
-## 🛠️ Funcionalidades
-
-- [x] Geração de senha aleatória
-- [x] Seleção de personagens com feedback
-- [x] Feedback visual com ícones (`check`, `x`, `seta`)
-- [x] Sistema de tentativas múltiplas (3 linhas)
-- [x] Confetes na vitória 🎉
-- [x] Botão de "Tentar Novamente"
-
----
-
 ## ✨ Créditos
 
 Criado como projeto de aprendizado e diversão!  
